@@ -9,7 +9,7 @@ st.sidebar.header("로그인")
 user_id = st.sidebar.text_input("아이디 입력", value="",max_chars=15)
 user_password = st.sidebar.text_input("패스워드 입력", value="",type="password")
 
-if user_id=='ssb2001' and user_password == "1234" :
+if user_id=='lim' and user_password == "1234" :
         
     st.sidebar.header("그림 목록")
     sel_options=["","진주 귀걸이를 한 소녀","별이 빛난는 밤","절규","생명의 나무","월하정인"]
